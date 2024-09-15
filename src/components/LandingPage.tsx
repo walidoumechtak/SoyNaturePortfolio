@@ -1,4 +1,3 @@
-import { Button } from "flowbite-react";
 import NavBar from "./Navbat";
 import "./LandingPage.css"; // Import the CSS file for the landing page
 
