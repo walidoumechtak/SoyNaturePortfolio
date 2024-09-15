@@ -4,7 +4,7 @@ import "./LandingPage.css"; // Import the CSS file for the landing page
 
 function LandingPage() {
   return (
-    <div className="landing-page"> {/* Add a class name for the landing page */}
+    <div id="home" className="landing-page"> {/* Add a class name for the landing page */}
           <NavBar />
         <div className="overlay flex justify-center items-center">
           <div className="hero px-5 md:px-0 container flex flex-col justify-center">

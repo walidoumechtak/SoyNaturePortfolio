@@ -5,7 +5,7 @@ import { MdOutlinePayment } from "react-icons/md";
 
 function Services() {
     return (
-        <div className="sm:px-0 px-5 mb-20 flex md:flex-row flex-col justify-around container mx-auto">
+        <div id="Services" className="sm:px-0 px-5 mb-20 flex md:flex-row flex-col justify-around container mx-auto">
             <div className="flex text-center sm:mb-0 mb-10 flex-col justify-center items-center">
                 <FaShippingFast className="mb-5 text-gray-400" size={45}/>
                 <h2>Free Shipping</h2>

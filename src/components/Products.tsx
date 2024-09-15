@@ -13,7 +13,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 const Products: React.FC = () => {
   return (
-    <div className="w-full container mx-auto my-40">
+    <div id='products' className="w-full container mx-auto my-40">
       <div className='mb-10'>
         <h2 className="text-3xl text-center font-bold text-gray-800">Our Featured Products</h2>
         <p className='text-sm text-center text-gray-400'>Our last products in the store</p>

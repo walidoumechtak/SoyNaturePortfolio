@@ -15,13 +15,12 @@ export function NavBar() {
         </div>
         <Navbar.Toggle />
       <Navbar.Collapse >
-        <Navbar.Link className="text-purple-700 font-bold text-lg" href="#">
+        <Navbar.Link className="text-purple-700 font-bold text-lg" href="#home">
           Home
         </Navbar.Link>
-        <Navbar.Link className="text-dark text-lg" href="#">About</Navbar.Link>
-        <Navbar.Link className="text-dark text-lg" href="#">Services</Navbar.Link>
-        <Navbar.Link className="text-dark text-lg" href="#">Pricing</Navbar.Link>
-        <Navbar.Link className="text-dark text-lg" href="#">Contact</Navbar.Link>
+        <Navbar.Link className="text-dark text-lg" href="#products">Products</Navbar.Link>
+        <Navbar.Link className="text-dark text-lg" href="#offers">offers</Navbar.Link>
+        <Navbar.Link className="text-dark text-lg" href="#Services">Services</Navbar.Link>
         <FaShoppingBag className="md:mt-0 mt-5 ml-5 cursor-pointer text-purple-700" size={25}/>
       </Navbar.Collapse>
     </Navbar>
