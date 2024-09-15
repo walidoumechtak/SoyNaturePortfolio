@@ -1,0 +1,58 @@
+.offer1 {
+    background-image: url('/src/assets/offer1.jpg');
+    
+}
+
+.backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode:overlay;
+    overflow: hidden;
+}
+
+.offer2 {
+    background-image: url('/src/assets/offer2.jpg');
+}
+
+.offer1::before, 
+.offer2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%; /* Extend beyond the container */
+    height: 200%; /* Extend beyond the container */
+    background: rgba(255, 255, 255, 0.3); /* Adjust color and opacity */
+    transform: translate(-50%, -50%) scale(0); /* Start at center with scale 0 */
+    /* border-radius: 50%;  */
+    transition: transform 0.4s ease-in; /* Smooth transition */
+    z-index: -1;
+  }
+
+  .offer1:hover .overlay2,
+  .offer2:hover .overlay2 {
+    transform: translate(-50%, -50%) scale(1); /* Expand to cover the container */
+  }
+
+
+
+/* .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+} */

@@ -1,0 +1,12 @@
+/* .swiper-wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+} */
+
+
+.swiper-slide {
+    /* margin-right: 0 !important; */
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+}
