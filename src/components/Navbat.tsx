@@ -6,7 +6,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 export function NavBar() {
   return (
-    <Navbar className="fixed z-50 mx-auto w-[100%] flex items-center bg-white border-b-[1px] border-b-gray-300">
+    <Navbar className="fixed sm:px-0 px-5 z-50 mx-auto w-[100%] flex items-center bg-white border-b-[1px] border-b-gray-300">
         <div className=" text-xl font-semibold dark:text-white text-dark">
           <span className="text-purple-700 text-[30px]">S</span>
           OY 
